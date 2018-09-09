@@ -1,2 +1,2 @@
 do:
-	gcc --std=c99 src/random.c
+	gcc --std=c99 src/rand.c
