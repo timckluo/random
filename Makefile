@@ -1,2 +1,2 @@
 do:
-	gcc --std=c99 src/rand.c
+	gcc -std=c99 -Wall -Wextra -o rand src/rand.c

@@ -16,7 +16,15 @@ int main(int argc, char *argv[])
 
   int max = atoi(argv[1]);
 
-  srand(time(NULL));
+//  srand(time(NULL));
+  
+  void init_rand(void)
+  {
+    srand(time(NULL));
+  }
+
+  init_rand();
+
   int result = random_int(max);
   printf("%d\n", result);
 
